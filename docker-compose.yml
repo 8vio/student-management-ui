@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+
+  ui-students:
+    container_name: ui-students
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      PORT: 3000
+
