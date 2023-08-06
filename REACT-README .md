@@ -1,42 +1,12 @@
-# Student Result Management System UI
+# Getting Started with Create React App
 
-## Running the application in a Docker Container
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Running the application with Docker
-
-### Prerequisites
-
-To test locally or build the Docker image, install docker [link](https://docs.docker.com/engine/install/)
-
-## Run the application
-
-Run the following command:
-
-```sh
-npm run services:up
-```
-
-The following container should be created and started, you can expect an output like this:
-
-```sh
-[+] Running 2/2
- ✔ Network student-management-ui_default  Created                         0.0s 
- ✔ Container ui-students                  Started                         0.5s
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The Backend was built using JWT authentication, to use the system please login first [http://localhost:3000/login](http://localhost:3000/login) 
-
-To create a user, refer to the Login creation in the API documentation [link](https://github.com/8vio/student-management#create-a-user-opened-for-testing-purposes)
-
-## Running the application
-
-## Run the application (React Framework Instruction)
+## Available Scripts
 
 In the project directory, you can run:
 
-#### `npm start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
